@@ -70,6 +70,7 @@ def layout(title, body, depth=0):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} | 外壁塗装ナビ（仮）</title>
 <meta name="description" content="{esc(title)}。自治体公式ページで確認した情報だけを、出典と確認日つきで掲載します。">
+<meta name="google-site-verification" content="CvFgK5oamyRo5vpC9yJ04DHveJ5tD9HXxCtGN4cvsyQ">
 <link rel="stylesheet" href="{prefix}assets/style.css">
 <link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg">
 </head>
