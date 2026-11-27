@@ -68,14 +68,14 @@ def layout(title, body, depth=0):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)} | 外壁塗装ナビ（仮）</title>
+<title>{esc(title)} | 外壁塗装ナビ</title>
 <meta name="description" content="{esc(title)}。自治体公式ページで確認した情報だけを、出典と確認日つきで掲載します。">
 <meta name="google-site-verification" content="CvFgK5oamyRo5vpC9yJ04DHveJ5tD9HXxCtGN4cvsyQ">
 <link rel="stylesheet" href="{prefix}assets/style.css">
 <link rel="icon" type="image/svg+xml" href="{prefix}assets/favicon.svg">
 </head>
 <body>
-<header class="site"><a href="{prefix}index.html">外壁塗装ナビ（仮）</a><span class="tag">自治体公式情報で確認した、外壁塗装の助成金と費用の情報整理サイト（プロトタイプ・未公開）</span></header>
+<header class="site"><a href="{prefix}index.html">外壁塗装ナビ</a><span class="tag">自治体公式情報で確認した、外壁塗装の助成金と費用の情報整理サイト</span></header>
 <main>
 {body}
 </main>
@@ -222,7 +222,18 @@ def main():
 </ul>
 <h2>更新方針</h2>
 <p>助成金は年度で変わり、予算到達で年度途中に終了することもあります。年度替わり（3〜4月）に全自治体ページを再確認します。</p>
-<p class="small">現在はプロトタイプ（未公開）です。運営者情報・特商法表記は、送客開始時に整備します。</p>
+<h2>運営者情報</h2>
+<ul>
+<li>サイト名：外壁塗装ナビ</li>
+<li>運営者：個人運営（住まい・リフォーム分野の公開情報を整理する個人サイトです）</li>
+<li>お問い合わせ窓口：準備中です。設置次第、このページに掲載します。</li>
+</ul>
+<h2>広告・アフィリエイトについて</h2>
+<p>当サイトは、アフィリエイトプログラムを利用して商品・サービスを紹介する場合があります。リンク経由で申し込みが行われた場合、当サイトが紹介料を受け取ることがあります。掲載情報の正確さについては上記の出典方針に基づき確認していますが、申し込み条件や価格はリンク先の公式情報をご確認ください。</p>
+<h2>免責事項</h2>
+<p>掲載情報は確認時点のものであり、制度内容・受付状況は変更される場合があります。申請や契約の前に、必ず自治体や事業者の公式情報で最新内容を確認してください。当サイトの情報を利用して生じた損害について、運営者は責任を負いかねます。</p>
+<h2>プライバシー</h2>
+<p>当サイトは静的な情報提供サイトであり、会員登録やお問い合わせフォーム等で個人情報を収集する機能はありません。アクセス解析を行う場合は、個人を特定しない統計的な範囲で利用します。</p>
 </div>
 """
     (ROOT / "about").mkdir(exist_ok=True)
