@@ -1,0 +1,9 @@
+# secrets / local files — never commit these
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*secret*
+.DS_Store
+__pycache__/

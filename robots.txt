@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://urumunahu1124.github.io/gaiheki-navi/sitemap.xml
